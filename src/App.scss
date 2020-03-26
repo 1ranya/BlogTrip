@@ -1,0 +1,110 @@
+@import 'bulma';
+@import 'bulma-tooltip';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+.App{
+  font-family: 'Roboto', sans-serif;
+}
+.center{
+  text-align: center;
+}
+.zero-padding-left{
+  padding-left: 0%;
+}
+#surface{
+  margin-right: -35%  
+}
+.left{
+  -webkit-box-shadow: -1px -1px 15px -36px rgba(0,0,0,0.59);
+  -moz-box-shadow: -1px -1px 15px -36px rgba(0,0,0,0.59);
+  box-shadow: -1px -1px 15px -36px rgba(0,0,0,0.59);
+}
+.black-background{
+  background-color: black;
+}
+.grey-opaque-background:hover{
+    //background-color: rgba(42, 61, 132, 0.14);
+    color: white;
+    transition: 0.5s;
+    border: solid black;
+
+  }
+.margin-5{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#rotterdamMap{
+ 
+}
+.sub-text{
+  color: rgb(161, 161, 161);
+}
+.blue{
+  color: rgb(47, 179, 240) !important;
+}
+.isActive{
+  display: block;
+}
+.is-hide{
+  display: none;
+}
+.withmargin{
+  margin-bottom: -16%;
+  margin-top: 17%;
+}
+.inputFile{
+  position: relative;
+  opacity: 0;
+  z-index: 2;
+  text-align: right;
+}
+.uploadDrapeauLink{
+  position: absolute;
+  color: rgb(47, 179, 240) !important;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.uploadImageLink{
+  position: absolute;
+  color: rgb(240, 47, 47) !important;
+  padding-left: 1%;
+  padding-right: 2%;
+}
+.fa-download{
+  margin-left: 5%
+}
+.coordonnee{
+  display: none;
+}
+.CameraIcon{
+  padding-left: 15%
+}
+.plusIcon{
+  padding-left: 0%
+}
+.padding-card{
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+}
+.padding-body{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.bold{
+  font-weight: bold;
+}
+.greyBackground{
+  //background-color: rgb(241, 241, 241);
+  background-image: url("./media/TRIP.jpg");
+}
+.zIndexed{
+  z-index: 3;
+}
+.iconReverse:hover{
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  transition: 0.9s;
+}
